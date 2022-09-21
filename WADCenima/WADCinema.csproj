@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
-    <Folder Include="Areas\Admin\Models\" />
+    <Folder Include="Areas\Admin\Models\BusinessModel\" />
     <Folder Include="wwwroot\images\img\demo\slider\" />
     <Folder Include="wwwroot\images\img\previews\" />
   </ItemGroup>
