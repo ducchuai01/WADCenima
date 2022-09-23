@@ -10,7 +10,7 @@ namespace WADCenima.Areas.Admin.Models.Entity
     [Table("Role")]
     public class Role
     {
-        public Guid IdRole { get; set; }
+        public Guid RoleId { get; set; }
         [StringLength(50)]
         public string NameRole { get; set; }
         public int? RoleEnum { get; set; }

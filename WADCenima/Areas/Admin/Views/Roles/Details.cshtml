@@ -1,0 +1,31 @@
+﻿@model WADCenima.Areas.Admin.Models.Entity.Role
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Areas/Admin/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Role</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NameRole)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.NameRole)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.RoleEnum)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.RoleEnum)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.RoleId">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
