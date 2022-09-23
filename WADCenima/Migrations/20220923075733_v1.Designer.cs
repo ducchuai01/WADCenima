@@ -7,10 +7,10 @@ using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WADCinema.Areas.Admin.Models.BusinessModel;
 
-namespace WADCinema.Migrations
+namespace WADCenima.Migrations
 {
     [DbContext(typeof(CinemaManagementContext))]
-    [Migration("20220923071243_v1")]
+    [Migration("20220923075733_v1")]
     partial class v1
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

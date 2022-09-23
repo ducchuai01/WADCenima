@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace WADCinema.Migrations
+namespace WADCenima.Migrations
 {
     public partial class v1 : Migration
     {

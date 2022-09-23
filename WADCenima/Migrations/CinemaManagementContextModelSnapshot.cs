@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using WADCinema.Areas.Admin.Models.BusinessModel;
 
-namespace WADCinema.Migrations
+namespace WADCenima.Migrations
 {
     [DbContext(typeof(CinemaManagementContext))]
     partial class CinemaManagementContextModelSnapshot : ModelSnapshot
