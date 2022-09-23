@@ -41,5 +41,7 @@ namespace WADCenima.Areas.Admin.Models.Entity
         [DisplayName("Chi tiết")]
         [MaxLength()]
         public DateTime MovieDescription { get; set; }
+
+        public ICollection<Movie_Genre_Movie> movie_Genre_Movies{ get; set; }
     }
 }
