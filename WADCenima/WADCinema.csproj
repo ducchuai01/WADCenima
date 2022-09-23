@@ -12,6 +12,10 @@
 
   <ItemGroup>
     <Folder Include="Areas\Admin\Data\" />
+<<<<<<< HEAD
+=======
+    <Folder Include="Areas\Admin\Models\BusinessModel\" />
+>>>>>>> e74e608bee805cc62c03a6a412a626c33b926bc0
     <Folder Include="wwwroot\images\img\demo\slider\" />
     <Folder Include="wwwroot\images\img\previews\" />
   </ItemGroup>

@@ -6,10 +6,15 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+<<<<<<< HEAD
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using WADCinema.Areas.Admin.Models.BusinessModel;
+=======
+using Microsoft.Extensions.Configuration;
+using Microsoft.Extensions.DependencyInjection;
+>>>>>>> e74e608bee805cc62c03a6a412a626c33b926bc0
 
 namespace WADCenima
 {
@@ -34,11 +39,16 @@ namespace WADCenima
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+<<<<<<< HEAD
             
             //bổ sung khi dung version 2.1
             services.AddHttpContextAccessor();
             services.AddDbContext<CinemaManagementContext>(
                 options => options.UseSqlServer(Configuration.GetConnectionString("CinemaManagementString")));
+=======
+            //bổ sung khi dung version 2.1
+            services.AddHttpContextAccessor();
+>>>>>>> e74e608bee805cc62c03a6a412a626c33b926bc0
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
